@@ -18,12 +18,10 @@ npm i svelte-cusdis
 </script>
 
 <Cusdis
- attrs = {{
-     appId: "2f49c941-a723-4350-a9eb-cad6fab4772b",
-     pageId: "1",
-     pageUrl: "https:localhost:3000",
-     pageTitle: "Svelte Cusdis"
- }}
+appId="2f49c941-a723-4350-a9eb-cad6fab4772b"
+pageId="demo"
+Url="demo"
+pageTitle="demo"
 />
 ```
 
