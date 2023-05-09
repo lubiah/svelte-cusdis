@@ -26,7 +26,6 @@
  
     onDestroy(()=>{
         if (browser){
-            console.log("Destroyed");
             let url = "https://cusdis.com/js/cusdis.es.js";
             let script  = document.querySelector(`script[src="${url}"]`);
             script.removeEventListener("load", load);
